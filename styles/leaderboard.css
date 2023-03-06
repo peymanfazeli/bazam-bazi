@@ -125,11 +125,7 @@ body {
 .table .toggle {
   display: none;
 }
-.table #toggle1:checked ~ #person1,
-.table #toggle2:checked ~ #person2,
-.table #toggle3:checked ~ #person3,
-.table #toggle4:checked ~ #person4,
-.table #toggle5:checked ~ #person5 {
+.table :checked + .person {
   box-shadow: inset 1px 2px 15px rgba(0, 0, 0, 0.3);
 }
 .div1 {
